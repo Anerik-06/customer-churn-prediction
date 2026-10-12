@@ -16,7 +16,7 @@ from sklearn.metrics import (
 app = Flask(__name__)
 
 # Load the customer churn dataset
-df = pd.read_csv("customer_churn.csv")
+df = pd.read_csv("Customer_Churn.csv")
 df.columns = df.columns.str.strip()
 
 # Convert TotalCharges to numeric values
